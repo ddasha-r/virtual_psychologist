@@ -1,0 +1,1040 @@
+.personal-info.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    overflow: hidden;
+  }
+  .personal-info .userProfileSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 84px 0px;
+  }
+  @media (max-width: 575px) {
+    .personal-info .userProfileSection {
+      gap: 80px 0px;
+    }
+  }
+  @media (max-width: 383px) {
+    .personal-info .userProfileSection {
+      gap: 50px 0px;
+    }
+  }
+  .personal-info .flexRow {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1440px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .flexRow {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px 10px;
+    }
+  }
+  .personal-info .profileImage {
+    position: relative;
+    width: 125px;
+    min-width: 0px;
+    height: 105px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  @media (max-width: 991px) {
+    .personal-info .profileImage {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+      min-width: unset;
+      max-width: 125px;
+    }
+  }
+  .personal-info .headerRow{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    margin: 42px 0px 39.5px;
+    width: 1254.5px;
+    min-width: 0px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .headerRow {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+      min-width: unset;
+    }
+  }
+  @media (max-width: 767px) {
+    .personal-info .headerRow {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px 10px;
+    }
+  }
+  .personal-info .navigationRow {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    margin: 1px 0px 0px;
+    width: 733.5px;
+    min-width: 0px;
+  }
+  @media (max-width: 767px) {
+    .personal-info .navigationRow {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+      min-width: unset;
+    }
+  }
+  @media (max-width: 575px) {
+    .personal-info .navigationRow {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px 10px;
+    }
+  }
+  .personal-info .homeTitle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 2.5px;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    text-align: center;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .homeTitle {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 575px) {
+    .personal-info .homeTitle {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .homeTitle {
+      font-size: 20px;
+    }
+  }
+  .personal-info .personalCabinetTitle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5px 0px 2px;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    text-align: center;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .personalCabinetTitle {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 575px) {
+    .personal-info .personalCabinetTitle {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .personalCabinetTitle {
+      font-size: 20px;
+    }
+  }
+  .personal-info .catalogTitle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5px 0px 0px;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    text-align: center;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .catalogTitle {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 575px) {
+    .personal-info .catalogTitle {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .catalogTitle {
+      font-size: 20px;
+    }
+  }
+  .personal-info .authBox {
+    position: relative;
+    display: flex;
+    gap: 0px 94px;
+    margin: 1px 0px 0px;
+    width: 440px;
+    min-width: 0px;
+  }
+  @media (max-width: 1199px) {
+    .personal-info .authBox {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+      min-width: unset;
+    }
+  }
+  @media (max-width: 991px) {
+    .personal-info .authBox {
+      -moz-column-gap: 32px;
+      column-gap: 32px;
+    }
+  }
+  @media (max-width: 575px) {
+    .personal-info .authBox {
+      -moz-column-gap: 16px;
+      column-gap: 16px;
+    }
+  }
+  @media (max-width: 383px) {
+    .personal-info .authBox {
+      -moz-column-gap: 8px;
+      column-gap: 8px;
+    }
+    .personal-info .loginTitle {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 0px 61px;
+        font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+        color: black;
+        text-align: center;
+        letter-spacing: -0.31px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2470588235);
+      }
+      @media (max-width: 991px) {
+        .personal-info .loginTitle {
+          margin: 0px 0px 0px 32px;
+          font-size: 22px;
+        }
+      }
+      @media (max-width: 575px) {
+        .personal-info .loginTitle {
+          margin: 0px 0px 0px 16px;
+        }
+      }
+      @media (max-width: 479px) {
+        .personal-info .loginTitle {
+          font-size: 20px;
+        }
+      }
+      @media (max-width: 383px) {
+        .personal-info .loginTitle {
+          margin: 0px 0px 0px 8px;
+        }
+      }
+  .personal-info .contentFlexRow {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    margin: 0px auto 360px;
+    width: 1147.9609375px;
+    max-width: 85%;
+  }
+  @media (max-width: 991px) {
+    .personal-info .contentFlexRow {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px 10px;
+      margin: 0px auto 150px;
+    }
+  }
+  @media (max-width: 575px) {
+    .personal-info .contentFlexRow {
+      margin: 0px auto 80px;
+    }
+  }
+  @media (max-width: 383px) {
+    .personal-info .contentFlexRow {
+      margin: 0px auto 50px;
+    }
+  }
+  .personal-info .personalInfoColumn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px 0px;
+    width: 500px;
+    min-width: 0px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .personalInfoColumn {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+      min-width: unset;
+    }
+  }
+  .personal-info .mainContentBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(255, 203, 60, 0.439);
+  }
+  .personal-info .mainInfoTitle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    text-align: center;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .mainInfoTitle {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .mainInfoTitle {
+      font-size: 20px;
+    }
+  }
+  .personal-info .personalDetailsFlexRow {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    width: 98.8%;
+  }
+  @media (max-width: 383px) {
+    .personal-info .personalDetailsFlexRow {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px 8px;
+    }
+  }
+  .personal-info .labelsColumn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 196px;
+    min-width: 0px;
+  }
+  @media (max-width: 383px) {
+    .personal-info .labelsColumn {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+      min-width: unset;
+    }
+  }
+  .personal-info .nameLabel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .nameLabel {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .nameLabel {
+      font-size: 20px;
+    }
+  }
+  .personal-info .surnameLabel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 52px 0px 0px;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .surnameLabel {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .surnameLabel {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 383px) {
+    .personal-info .surnameLabel {
+      margin: 50px 0px 0px;
+    }
+  }
+  .personal-info .middleNameLabel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 51.5px 0px 0px;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .middleNameLabel {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .middleNameLabel {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 383px) {
+    .personal-info .middleNameLabel {
+      margin: 50px 0px 0px;
+    }
+  }
+  .personal-info .emailLabel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 52px 0px 0px;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .emailLabel {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .emailLabel {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 383px) {
+    .personal-info .emailLabel {
+      margin: 50px 0px 0px;
+    }
+  }
+  .personal-info .phoneLabel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 52px 0px 0px;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .phoneLabel {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .phoneLabel {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 383px) {
+    .personal-info .phoneLabel {
+      margin: 50px 0px 0px;
+    }
+  }
+  .personal-info .birthDateLabel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 51.5px 0px 0px;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .birthDateLabel {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .birthDateLabel {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 383px) {
+    .personal-info .birthDateLabel {
+      margin: 50px 0px 0px;
+    }
+  }
+  .personal-info .valuesColumn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 243px;
+    min-width: 0px;
+  }
+  @media (max-width: 383px) {
+    .personal-info .valuesColumn {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+      min-width: unset;
+    }
+  }
+  .personal-info .nameValue {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .nameValue {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .nameValue {
+      font-size: 20px;
+    }
+  }
+  .personal-info .surnameValue {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 52px 0px 0px;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .surnameValue {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .surnameValue {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 383px) {
+    .personal-info .surnameValue {
+      margin: 50px 0px 0px;
+    }
+  }
+  .personal-info .middleNameValue {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 51.5px 0px 0px;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .middleNameValue {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .middleNameValue {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 383px) {
+    .personal-info .middleNameValue {
+      margin: 50px 0px 0px;
+    }
+  }
+  .personal-info .emailValue {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 52px 0px 0px;
+    width: 100%;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .emailValue {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .emailValue {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 383px) {
+    .personal-info .emailValue {
+      margin: 50px 0px 0px;
+    }
+  }
+  .personal-info .phoneValue {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 52px 0px 0px;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .phoneValue {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .phoneValue {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 383px) {
+    .personal-info .phoneValue {
+      margin: 50px 0px 0px;
+    }
+  }
+  .personal-info .birthDateValue {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 51.5px 0px 0px;
+    width: 100%;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .birthDateValue {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .birthDateValue {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 383px) {
+    .personal-info .birthDateValue {
+      margin: 50px 0px 0px;
+    }
+  }
+  .personal-info .problemsColumn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 52px 0px;
+    margin: 0px 0px 249.5px;
+    width: 500px;
+    min-width: 0px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .problemsColumn {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+      min-width: unset;
+    }
+  }
+  @media (max-width: 383px) {
+    .personal-info .problemsColumn {
+      gap: 50px 0px;
+    }
+  }
+  .personal-info .problemsContentBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 203, 60, 0.439);
+  }
+  .personal-info .problemsTitle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    text-align: center;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .problemsTitle {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .problemsTitle {
+      font-size: 20px;
+    }
+  }
+  .personal-info .problemsListColumn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 63px 0px;
+  }
+  @media (max-width: 383px) {
+    .personal-info .problemsListColumn {
+      gap: 50px 0px;
+    }
+  }
+  .personal-info .problem1Title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    text-align: center;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .problem1Title {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .problem1Title {
+      font-size: 20px;
+    }
+  }
+  .personal-info .problem2Title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 600 24px/0.83 "Montserrat", Helvetica, Arial, serif;
+    color: black;
+    text-align: center;
+    letter-spacing: -0.31px;
+  }
+  @media (max-width: 991px) {
+    .personal-info .problem2Title {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    .personal-info .problem2Title {
+      font-size: 20px;
+    }
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+  
+  *,
+  *::before,
+  *::after {
+      box-sizing: border-box;
+  }
+  
+  h1, h2, h3, h4, h5, h6, hr, p, figure {
+      display: block;
+      font-size: 1em;
+      font-weight: normal;
+      margin: 0;
+      border-width: 0;
+      opacity: 1;
+  }
+  
+  ul {
+      display: block;
+      margin: 0;
+      padding: 0;
+  }
+  
+  li {
+      display: block;
+  }
+  
+  button {
+      background-color: transparent;
+      border: none;
+      display: block;
+      padding: 0;
+      margin: 0;
+      align-items: normal;
+  }
+  
+  body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  .flex-column {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .page-header {
+      z-index: 10000;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+  
+  .sticking {
+      margin: 0 !important;
+      z-index: 10000 !important;
+  }
+  
+  @media (max-width: 99999px) {
+      .max\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .xxxl\:show {
+          display: none;
+      }
+  
+      .xxl\:show {
+          display: none;
+      }
+  
+      .xl\:show {
+          display: none;
+      }
+  
+      .lg\:show {
+          display: none;
+      }
+  
+      .md\:show {
+          display: none;
+      }
+  
+      .sm\:show {
+          display: none;
+      }
+  
+      .xs\:show {
+          display: none;
+      }
+  
+      .xxs\:show {
+          display: none;
+      }
+  
+      .tn\:show {
+          display: none;
+      }
+  
+      .max\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 2999px) {
+      .xxxl\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .xxxl\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 1919px) {
+      .xxl\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .xxl\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 1399px) {
+      .xl\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .xl\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 1199px) {
+      .lg\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .lg\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 991px) {
+      .md\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .md\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 767px) {
+      .sm\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .sm\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 575px) {
+      .xs\:show {
+          display: flex;
+          flex-direction: column;
+  
+      }
+  
+      .xs\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 480px) {
+      .xxs\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .xxs\:hide {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 384px) {
+      .tn\:show {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .tn\:hide {
+          display: none;
+      }
+  }
+  
+  .material-symbols-outlined {
+      font-family: 'Material Symbols Outlined';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+  }
+  
+  
+  .material-symbols-outlined {
+      font-family: 'Material Symbols Outlined';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+  }
+
+
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  
+  @font-face {
+    font-family: "FontAwesome";
+    font-weight: normal;
+    font-style: normal;
+    src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+    src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0")
+        format("embedded-opentype"),
+      url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0")
+        format("woff2"),
+      url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0")
+        format("woff"),
+      url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0")
+        format("truetype"),
+      url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular")
+        format("svg");
+  }
+
+  .headroom {
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+
+.headroom--pinned {
+    transform: translateY(0%);
+}
+
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
